@@ -11,7 +11,7 @@ Console.Write("b2 = ");
 double b2 = Convert.ToDouble(Console.ReadLine());
 Console.Write("k2 = ");
 double k2 = Convert.ToDouble(Console.ReadLine());
-if (b1 == k1 && b1 == b2 && b1 == k2)
+if (k1 == k2)
 {
     Console.Write("Параллельные прямые никогда не пересекутся!");
 }
